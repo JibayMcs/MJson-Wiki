@@ -11,11 +11,19 @@ nav:
 
 # Documentation and theme
 theme:
-  name: 'material'
+  name: null
+  custom_dir: 'material'
   palette:
     primary: 'green'
     accent: 'light green'
   language: 'en'
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo:
+    icon: "\uE80C"
+  feature:
+    tabs: false
     
 markdown_extensions:
   - codehilite
