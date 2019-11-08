@@ -192,8 +192,7 @@ actual syntax highlighting
   color: #8a8f98 !important;
 } /* Comment */
 .codehilite .err {
-  color: #960050 !important;
-  background-color: #1e0010 !important;
+  color: #8a8f98 !important;
 } /* Error */
 .codehilite .k {
   color: #66d9ef !important;

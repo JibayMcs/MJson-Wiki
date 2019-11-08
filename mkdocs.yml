@@ -1,18 +1,22 @@
 site_name: MJSon
+
 #Wiki
 nav: 
   - Home: 'index.md'
   - Wut ?: 'faq.md'
-  - Content Pack Creator ?:
-    - Your First Pack: creator/first_pack.md
+  - Syntaxes: 'syntaxes.md'
+  - Content Pack Creator:
+      - 'Your First Pack':
+        - 'Content Pack Files Structure': creator/first_pack/#content-pack-files-structure
+        - 'Content Pack zip file directory': creator/first_pack/#content-pack-zip-file-directory
+        - 'Explanations': creator/first_pack/#explanations
   - Developper ?:
     - Work with MJson API: modder/mjson_api.md
-
 
 # Documentation and theme
 theme:
   name: null
-  custom_dir: 'material'
+  custom_dir: 'material/'
   palette:
     primary: 'green'
     accent: 'light green'
@@ -27,25 +31,9 @@ theme:
     
 markdown_extensions:
   - codehilite
-  #- admonition
-  #- pymdownx.arithmatex
-    #- pymdownx.betterem:
-  #    smart_enable: all
-  #- pymdownx.caret
-  #- pymdownx.critic
-  #- pymdownx.details
-    #- pymdownx.emoji:
-    #    emoji_index: !!python/name:pymdownx.emoji.emojione
-  #    emoji_generator: !!python/name:pymdownx.emoji.to_svg
-  #- pymdownx.inlinehilite
-  #- pymdownx.magiclink
-  #- pymdownx.mark
-  #- pymdownx.smartsymbols
-  #- pymdownx.superfences
-    #- pymdownx.tasklist:
-  #    custom_checkbox: true
-    #- toc:
-    #    permalink: true
+  - admonition
+  - toc:
+      permalink: true
       
 extra_css:
   - stylesheets/dark_theme.css
