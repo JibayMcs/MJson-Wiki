@@ -1,9 +1,4 @@
-﻿
-
-
-
-
-# Your first Content Pack
+﻿# Content Pack
 
 ### Content Pack Files Structure
 First at all, you need to understand the content pack files hierarchy.  

@@ -4,15 +4,14 @@ site_name: MJSon
 nav: 
   - Home: 'index.md'
   - Wut ?: 'faq.md'
+  - 'Content Pack':
+    - 'Content Pack Files Structure': content_pack/#content-pack-files-structure
+    - 'Content Pack zip file directory': content_pack/#content-pack-zip-file-directory
+    - 'Explanations': content_pack/#explanations
   - Syntaxes:
-    - 'blocks.json': syntaxes/blocks.md
-    - 'items.json': syntaxes/items.md
-    - 'itemgroup.json': syntaxes/itemgroup.md
-  - Content Pack Creator:
-    - 'Your First Pack':
-      - 'Content Pack Files Structure': creator/first_pack/#content-pack-files-structure
-      - 'Content Pack zip file directory': creator/first_pack/#content-pack-zip-file-directory
-      - 'Explanations': creator/first_pack/#explanations
+      - 'blocks.json': syntaxes/blocks.md
+      - 'items.json': syntaxes/items.md
+      - 'itemgroup.json': syntaxes/itemgroup.md
   - Developper ?:
     - Work with MJson API: modder/mjson_api.md
 
@@ -40,6 +39,8 @@ markdown_extensions:
       permalink: true
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.details
+  - pymdownx.superfences
       
 extra_css:
   - stylesheets/dark_theme.css
