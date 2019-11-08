@@ -1,0 +1,53 @@
+site_name: MJSon
+#Wiki
+nav: 
+  - Home: 'index.md'
+  - Wut ?: 'faq.md'
+  - Content Pack Creator ?:
+    - Your First Pack: creator/first_pack.md
+  - Developper ?:
+    - Work with MJson API: modder/mjson_api.md
+
+
+# Documentation and theme
+theme:
+  name: 'material'
+  palette:
+    primary: 'green'
+    accent: 'light green'
+  language: 'en'
+    
+markdown_extensions:
+  - codehilite
+  - admonition
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:pymdownx.emoji.emojione
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - toc:
+      permalink: true
+      
+extra_css:
+  - stylesheets/dark_theme.css
+  
+extra:
+  social:
+    - type: github
+      link: https://github.com/JibayMcs
+    - type: 'twitter'
+      link: 'https://twitter.com/ZeAmateis'
+      
+repo_name: 'jibaymcs/mjson-wiki'
+repo_url: 'https://github.com/JibayMcs/MJson-Wiki'
