@@ -1,3 +1,4 @@
-# Welcome to MJSon Documentation
+# The `items.json` structure
 
-Here you will know everything to create a super-duper Content Pack for Minecraft !
+!!! info  
+    👷 🚧 This Page is currently under construction ! 🏗️ 👷‍♀️

@@ -1,7 +1,9 @@
-
 # Welcome to MJSon Documentation
 
 Here you will know everything to create a super-duper Content Pack for Minecraft !
+
+!!! info  
+    👷 🚧 This Wiki is currently under construction ! 🏗️ 👷‍♀️
 
 !!! danger "Global Registry Information" 
     All assets, registryName, id, that you writing need to be in lowercase !  

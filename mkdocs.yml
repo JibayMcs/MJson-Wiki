@@ -1,17 +1,32 @@
 site_name: MJSon
+site_description: A Minecraft mod to Create Content Packs
+site_author: ZeAmateis
+site_url: https://mjson.readthedocs.io
+repo_name: 'jibaymcs/mjson'
+repo_url: 'https://github.com/JibayMcs/MJson'
+copyright: 'Copyright &copy; 2019 ZeAmateis'
 
 #Wiki
-nav: 
+nav:
   - Home: 'index.md'
-  - Wut ?: 'faq.md'
-  - 'Content Pack':
+  - Wut ? (F.A.Q): 'faq.md'
+  - 'Understand Content Pack':
     - 'Content Pack Files Structure': content_pack/#content-pack-files-structure
     - 'Content Pack zip file directory': content_pack/#content-pack-zip-file-directory
     - 'Explanations': content_pack/#explanations
-  - Syntaxes:
-      - 'blocks.json': syntaxes/blocks.md
-      - 'items.json': syntaxes/items.md
-      - 'itemgroup.json': syntaxes/itemgroup.md
+  - 'Content Pack Creator ?':
+    - 'Syntaxes':
+        - 'blocks.json':
+            - 'Prerequisites': syntaxes/blocks/#the-blocksjson-syntax
+            - 'Create a Simple Block': syntaxes/blocks/#create-a-simple-block
+            - 'Create a Complex Block': syntaxes/blocks/#create-a-complex-block
+            - 'Configurables Objects':
+              - 'properties': syntaxes/blocks/properties.md
+              - 'itemGroup': syntaxes/blocks/itemGroup.md
+              - 'voxelShape': syntaxes/blocks/voxelShape.md
+        - 'items.json': syntaxes/items.md
+        - 'itemgroup.json':
+            - 'Create your Creative Tab': syntaxes/itemgroup.md
   - Developper ?:
     - Work with MJson API: modder/mjson_api.md
 
@@ -31,7 +46,9 @@ theme:
   feature:
     tabs: false
   favicon: 'assets/images/favicon.png'
-    
+  static_templates:
+    - 404.html
+
 markdown_extensions:
   - codehilite
   - admonition
@@ -51,6 +68,3 @@ extra:
       link: https://github.com/JibayMcs
     - type: 'twitter'
       link: 'https://twitter.com/ZeAmateis'
-      
-repo_name: 'jibaymcs/mjson-wiki'
-repo_url: 'https://github.com/JibayMcs/MJson-Wiki'

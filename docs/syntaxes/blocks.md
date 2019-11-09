@@ -1,4 +1,4 @@
-### The `blocks.json` syntax
+# The `blocks.json` structure
 
 !!! info "Prerequisites"
     To understand whats following, ensure to have read the [Content Pack Files Structure](../content_pack.md) page.
@@ -7,11 +7,13 @@
 
 That's a **JsonArray** file, it always start with `[]`
 
+___
+
 ### Create a Simple Block
 
-A simple block can be registered only with the `registryName` object.
+A simple block can be registered only with the <sup>**(mandatory)**</sup> `registryName` object.
 
-??? bug "Example"
+??? note "Example"
 
     ```json
     [
@@ -21,7 +23,7 @@ A simple block can be registered only with the `registryName` object.
     ]
     ```
 
-    ??? bug "Example with multiple blocks"
+    ??? note "Example with multiple blocks"
     
         ```json
         [
@@ -37,4 +39,17 @@ A simple block can be registered only with the `registryName` object.
         ]
         ```
 
+___
+
+### Create a Complex Block
+
+You can customize you block with some <sub>**(optional)**</sub> json objects.
+
+- `"properties"` [How To](./blocks/properties.md)
+- `"itemGroup"` [How To](./blocks/itemGroup.md)
+- `"voxelShape"` [How To](./blocks/voxelShape.md)
+
+!!! warning
+    If these objects is **empty**, **null** or **misspelled**, they are <u>ignored</u>.
+    
 ___
