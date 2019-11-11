@@ -50,6 +50,6 @@ You can customize you block with some <sub>**(optional)**</sub> json objects.
 - `"voxelShape"` [How To](./blocks/voxelShape.md)
 
 !!! warning
-    If these objects is **empty**, **null** or **misspelled**, they are <u>ignored</u>.
+    If these objects are **empty**, **null** or **misspelled**, they are <u>ignored</u>.
     
 ___

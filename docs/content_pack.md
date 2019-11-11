@@ -50,6 +50,10 @@ ___
   ]
 }
 ```
+
+!!! tip  
+    You can implement a Creative Commons licence for your work if you want.
+    See [Work with licenses](license/license.md) section.
 ___
 
 #### pack.mcmeta

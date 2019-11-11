@@ -14,11 +14,16 @@ Here you will know everything to create a super-duper Content Pack for Minecraft
 ### Features
 
 - [x] Blocks
-- [x] Items
 - [x] Creative tabs
+
+### W.I.P.
+
+- [ ] Items
+- [ ] CraftStudio Models
 
 ### Planned Features
 
+- [ ] Voxel Shape In-Game Pre-Renderer
 - [ ] Entities
 - [ ] Sounds
 - [ ] Damages Source

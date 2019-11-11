@@ -4,7 +4,7 @@ site_author: ZeAmateis
 site_url: https://mjson.readthedocs.io
 repo_name: 'jibaymcs/mjson'
 repo_url: 'https://github.com/JibayMcs/MJson'
-copyright: 'Copyright &copy; 2019 ZeAmateis'
+copyright: 'ZeAmateis - 2019'
 
 #Wiki
 nav:
@@ -29,6 +29,7 @@ nav:
             - 'Create your Creative Tab': syntaxes/itemgroup.md
   - Developper ?:
     - Work with MJson API: modder/mjson_api.md
+  - Work with licenses : license/license.md
 
 # Documentation and theme
 theme:
