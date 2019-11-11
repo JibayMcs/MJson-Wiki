@@ -6,7 +6,7 @@ You can define properties to deep customize your block.
     new BlockTestWithProperties(Block.Properties.create([...]));
     ```
 
-??? bug "Example"
+??? note "Example"
 
     ```json
     [
@@ -29,7 +29,7 @@ You can define properties to deep customize your block.
     ]
     ```
     
-    ??? bug "Example with multiple blocks"
+    ??? note "Example with multiple blocks"
     
         ```json
         [
