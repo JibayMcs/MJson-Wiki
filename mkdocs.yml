@@ -5,6 +5,9 @@ site_url: https://mjson.readthedocs.io
 repo_name: 'jibaymcs/mjson'
 repo_url: 'https://github.com/JibayMcs/MJson'
 copyright: 'ZeAmateis - 2019'
+google_analytics:
+  - 'UA-87583708-2'
+  - 'auto'
 
 #Wiki
 nav:
