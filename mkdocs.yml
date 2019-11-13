@@ -30,6 +30,7 @@ nav:
         - 'items.json': syntaxes/items.md
         - 'itemgroup.json':
             - 'Create your Creative Tab': syntaxes/itemgroup.md
+    - 'Example - Step by Step' : step-by-step.md.md
   - Developper ?:
     - Work with MJson API: modder/mjson_api.md
   - Work with licenses : license/license.md
