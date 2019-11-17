@@ -1,10 +1,7 @@
 # `voxelShape` object
 
 You can customize the Shape of your block.  
-Precisely, the base `shape` (hitbox), the `collisionShape` and the `renderShape`.  
- 
-!!! info "`renderShape`"  
-    This parameters is only if you work with special custom models renderer on your block.
+Precisely, the base `shape`, and `collisionShape` (hitboxes).  
     
 **VoxelShapes** are not really complicated to understand, but it's to explain.
 
@@ -25,14 +22,6 @@ So, if your block's hitboxes doesn't need to be "resized", don't put this proper
             "z2": 15
           },
           "collisionShape": {
-            "x1": 1,
-            "y1": 0,
-            "z1": 1,
-            "x2": 15,
-            "y2": 15,
-            "z2": 15
-          },
-          "renderShape": { //optional
             "x1": 1,
             "y1": 0,
             "z1": 1,
