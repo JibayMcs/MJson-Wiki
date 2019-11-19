@@ -1,9 +1,10 @@
 # Welcome to MJSon Documentation
 
-Here you will know everything to create a super-duper Content Pack for Minecraft !
+Here you will know everything to create a super-duper **Content Pack** for **Minecraft** !
 
 !!! info  
-    👷 🚧 This Wiki is currently under construction ! 🏗️ 👷‍♀️
+    👷 🚧 This Wiki is currently under construction ! 🏗️ 👷‍♀️  
+    Safety Helmet mandatory.
 
 !!! danger "Global Registry Information" 
     All assets, registryName, id, that you writing need to be in lowercase !  
@@ -19,7 +20,6 @@ Here you will know everything to create a super-duper Content Pack for Minecraft
 ### W.I.P.
 
 - [ ] Items
-- [ ] CraftStudio Models
 
 ### Planned Features
 
@@ -28,3 +28,4 @@ Here you will know everything to create a super-duper Content Pack for Minecraft
 - [ ] Sounds
 - [ ] Damages Source
 - [ ] Commands
+- [ ] CraftStudio Models

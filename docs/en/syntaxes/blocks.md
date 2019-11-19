@@ -45,9 +45,9 @@ ___
 
 You can customize you block with some <sub>**(optional)**</sub> json objects.
 
-- `"properties"` [How To](./blocks/properties.md)
-- `"itemGroup"` [How To](./blocks/itemGroup.md)
-- `"voxelShape"` [How To](./blocks/voxelShape.md)
+- `"properties"` [How To](blocks/properties.md)
+- `"itemGroup"` [How To](blocks/itemGroup.md)
+- `"voxelShape"` [How To](blocks/voxelShape.md)
 
 !!! warning
     If these objects are **empty**, **null** or **misspelled**, they are <u>ignored</u>.

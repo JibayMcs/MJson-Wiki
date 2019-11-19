@@ -71,7 +71,7 @@ Theses points accept **Integer** and **Decimal** values
       "z2": 15
     }
     ```
-    ![Cactus Voxel](../../images/cactus-voxel.png)
+    ![Cactus Voxel](../../../images/cactus-voxel.png)
     
 ??? note "Flower Pot Shape Example"  
     ```json
@@ -84,7 +84,7 @@ Theses points accept **Integer** and **Decimal** values
       "z2": 11
     }
     ```
-    ![Flower Pot Voxel](../../images/flower-pot-voxel.png)
+    ![Flower Pot Voxel](../../../images/flower-pot-voxel.png)
     
 So, basically that's the same way for the `collisionShape` or the `renderShape`
 

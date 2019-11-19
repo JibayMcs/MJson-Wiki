@@ -11,29 +11,53 @@ google_analytics:
 
 #Wiki
 nav:
-  - Home: 'index.md'
+  - Welcome !: 'index.md'
+  - Bienvenue !: 'index-fr.md'
   - Wut ? (F.A.Q): 'faq.md'
-  - 'Understand Content Pack':
-    - 'Content Pack Files Structure': content_pack/#content-pack-files-structure
-    - 'Content Pack zip file directory': content_pack/#content-pack-zip-file-directory
-    - 'Explanations': content_pack/#explanations
-  - 'Content Pack Creator ?':
-    - 'Syntaxes':
-        - 'blocks.json':
-            - 'Prerequisites': syntaxes/blocks/#the-blocksjson-syntax
-            - 'Create a Simple Block': syntaxes/blocks/#create-a-simple-block
-            - 'Create a Complex Block': syntaxes/blocks/#create-a-complex-block
-            - 'Configurables Objects':
-              - 'properties': syntaxes/blocks/properties.md
-              - 'itemGroup': syntaxes/blocks/itemGroup.md
-              - 'voxelShape': syntaxes/blocks/voxelShape.md
-        - 'items.json': syntaxes/items.md
-        - 'itemgroup.json':
-            - 'Create your Creative Tab': syntaxes/itemgroup.md
-    - 'Example - Step by Step' : step-by-step.md
-  - Developper ?:
-    - Work with MJson API: modder/mjson_api.md
-  - Work with licenses : license/license.md
+  - 'English Docs':
+    - 'Understand Contents Packs':
+      - 'Content Pack Files Structure': en/content_pack/#content-pack-files-structure
+      - 'Content Pack zip file directory': en/content_pack/#content-pack-zip-file-directory
+      - 'Explanations': en/content_pack/#explanations
+    - 'Content Pack Creator ?':
+      - 'Syntaxes':
+          - 'blocks.json':
+              - 'Prerequisites': en/syntaxes/blocks/#the-blocksjson-syntax
+              - 'Create a Simple Block': en/syntaxes/blocks/#create-a-simple-block
+              - 'Create a Complex Block': en/syntaxes/blocks/#create-a-complex-block
+              - 'Configurables Objects':
+                - 'properties': en/syntaxes/blocks/properties.md
+                - 'itemGroup': en/syntaxes/blocks/itemGroup.md
+                - 'voxelShape': en/syntaxes/blocks/voxelShape.md
+          - 'items.json': en/syntaxes/items.md
+          - 'itemgroup.json':
+              - 'Create your Creative Tab': en/syntaxes/itemgroup.md
+      - 'Example - Step by Step' : en/step-by-step.md
+    - Developper ?:
+      - Work with MJson API: en/modder/mjson_api.md
+    - Work with licenses : en/license/license.md
+  - 'Docs Française':
+    - 'Comprendre les Contents Packs':
+      - 'Structure des fichiers des Contents Packs': fr/content_pack/#content-pack-files-structure
+      - 'Dossier des Contents Packs': fr/content_pack/#content-pack-zip-file-directory
+      - 'Explications': fr/content_pack/#explanations
+    - 'Créateur de Contents Packs ?':
+      - 'Syntaxes':
+          - 'blocks.json':
+              - 'Prérequis': fr/syntaxes/blocks/#the-blocksjson-syntax
+              - 'Créer un Bloc Simple': fr/syntaxes/blocks/#create-a-simple-block
+              - 'Créer un Bloc Complèxe': fr/syntaxes/blocks/#create-a-complex-block
+              - 'Objets Configurables':
+                - 'properties': fr/syntaxes/blocks/properties.md
+                - 'itemGroup': fr/syntaxes/blocks/itemGroup.md
+                - 'voxelShape': fr/syntaxes/blocks/voxelShape.md
+          - 'items.json': fr/syntaxes/items.md
+          - 'itemgroup.json':
+              - 'Créer votre Onglet Créatif': fr/syntaxes/itemgroup.md
+      - 'Exemple - Pas à pas' : fr/step-by-step.md
+    - Developpeur ?:
+      - Travailler avec l'API MJson: fr/modder/mjson_api.md
+    - Travailler avec les licences : fr/license/license.md
 
 # Documentation and theme
 theme:

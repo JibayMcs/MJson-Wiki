@@ -65,7 +65,50 @@ You can define properties to deep customize your block.
 ??? abstract "`material`"  
     Define a "physics" of a blocks.  
     With `ROCK` material can only be destroyed by pickaxe, unlike `GROUND` materials, and those with `WOOD` material can burn.  
-    You can find all properties of a Material [here](/syntaxes/materials.md)  
+    
+    ??? snippet "List of all existing Materials"  
+        **AIR  
+        STRUCTURE_VOID  
+        PORTAL  
+        CARPET  
+        PLANTS  
+        OCEAN_PLANT  
+        TALL_PLANTS  
+        SEA_GRASS  
+        WATER  
+        BUBBLE_COLUMN  
+        LAVA  
+        SNOW  
+        FIRE  
+        MISCELLANEOUS  
+        WEB  
+        REDSTONE_LIGHT  
+        CLAY  
+        EARTH  
+        ORGANIC  
+        PACKED_ICE  
+        SAND  
+        SPONGE  
+        SHULKER  
+        WOOD  
+        BAMBOO_SAPLING  
+        BAMBOO  
+        WOOL  
+        TNT  
+        LEAVES  
+        GLASS  
+        ICE  
+        CACTUS  
+        ROCK  
+        IRON  
+        SNOW_BLOCK  
+        ANVIL  
+        BARRIER  
+        PISTON  
+        CORAL  
+        GOURD  
+        DRAGON_EGG  
+        CAKE**  
 
 ??? abstract "`hardness` **(decimal)**"
     "Hardness" to breaking with a pickaxe or shovel, depending on the `material`  
@@ -77,9 +120,32 @@ You can define properties to deep customize your block.
     Intensity of light produced by the block  
     **Max Value: 16**  
 
-??? abstract "`soundType`" 
+??? abstract "`soundType`"  
     The sound of the block on walking on, breaking, etc.  
-    You can find all sounds list [here](/syntaxes/soundType.md)
+    
+    ??? snippet "List of all existing Sounds Types"  
+        **WOOD  
+        GROUND  
+        PLANT  
+        STONE  
+        METAL  
+        GLASS  
+        CLOTH  
+        SAND  
+        SNOW  
+        LADDER  
+        ANVIL  
+        SLIME 
+        WET_GRASS  
+        CORAL  
+        BAMBOO  
+        BAMBOO_SAPLING  
+        SCAFFOLDING  
+        SWEET_BERRY_BUSH  
+        CROP  
+        STEM  
+        NETHER_WART  
+        LANTERN**    
 
 ??? abstract "`harvestLevel` **(integer)**"  
     This value assigns what tier of Harvest level is required to mine it.

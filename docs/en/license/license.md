@@ -43,4 +43,4 @@ The `license` property is a **String** value
     - `by-sa`
     
 ??? tip "In-Game License Render"  
-    ![Licence In-Game Render](../images/license-render.gif)
+    ![Licence In-Game Render](../../images/license-render.gif)
