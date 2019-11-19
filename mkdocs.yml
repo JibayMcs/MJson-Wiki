@@ -36,28 +36,28 @@ nav:
     - Developper ?:
       - Work with MJson API: en/modder/mjson_api.md
     - Work with licenses : en/license/license.md
-  - 'Docs Française':
-    - 'Comprendre les Contents Packs':
-      - 'Structure des fichiers des Contents Packs': fr/content_pack/#content-pack-files-structure
-      - 'Dossier des Contents Packs': fr/content_pack/#content-pack-zip-file-directory
-      - 'Explications': fr/content_pack/#explanations
-    - 'Créateur de Contents Packs ?':
-      - 'Syntaxes':
-          - 'blocks.json':
-              - 'Prérequis': fr/syntaxes/blocks/#the-blocksjson-syntax
-              - 'Créer un Bloc Simple': fr/syntaxes/blocks/#create-a-simple-block
-              - 'Créer un Bloc Complèxe': fr/syntaxes/blocks/#create-a-complex-block
-              - 'Objets Configurables':
-                - 'properties': fr/syntaxes/blocks/properties.md
-                - 'itemGroup': fr/syntaxes/blocks/itemGroup.md
-                - 'voxelShape': fr/syntaxes/blocks/voxelShape.md
-          - 'items.json': fr/syntaxes/items.md
-          - 'itemgroup.json':
-              - 'Créer votre Onglet Créatif': fr/syntaxes/itemgroup.md
-      - 'Exemple - Pas à pas' : fr/step-by-step.md
-    - Developpeur ?:
-      - Travailler avec l'API MJson: fr/modder/mjson_api.md
-    - Travailler avec les licences : fr/license/license.md
+  - Docs Française: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+  #  - 'Comprendre les Contents Packs':
+      #    - 'Structure des fichiers des Contents Packs': fr/content_pack/#content-pack-files-structure
+      #    - 'Dossier des Contents Packs': fr/content_pack/#content-pack-zip-file-directory
+      #    - 'Explications': fr/content_pack/#explanations
+      #  - 'Créateur de Contents Packs ?':
+      #    - 'Syntaxes':
+      #        - 'blocks.json':
+      #            - 'Prérequis': fr/syntaxes/blocks/#the-blocksjson-syntax
+      #            - 'Créer un Bloc Simple': fr/syntaxes/blocks/#create-a-simple-block
+      #            - 'Créer un Bloc Complèxe': fr/syntaxes/blocks/#create-a-complex-block
+      #            - 'Objets Configurables':
+      #              - 'properties': fr/syntaxes/blocks/properties.md
+      #             - 'itemGroup': fr/syntaxes/blocks/itemGroup.md
+      #              - 'voxelShape': fr/syntaxes/blocks/voxelShape.md
+      #       - 'items.json': fr/syntaxes/items.md
+      #        - 'itemgroup.json':
+      #           - 'Créer votre Onglet Créatif': fr/syntaxes/itemgroup.md
+      #    - 'Exemple - Pas à pas' : fr/step-by-step.md
+      #   - Developpeur ?:
+      #   - Travailler avec l'API MJson: fr/modder/mjson_api.md
+  #   - Travailler avec les licences : fr/license/license.md
 
 # Documentation and theme
 theme:
