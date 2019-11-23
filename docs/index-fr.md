@@ -14,11 +14,12 @@ Ici, vous allez tout apprendre pour créer un super-méga-cool **Content Pack** 
 ### Ajouts
 
 - [x] Blocs
+- [x] Items
 - [x] Onglets Créatifs
 
 ### W.I.P.
-
-- [ ] Items
+__
+- [ ] Items Complexes (Épée, Hache, Pioches, Armures, etc)
 
 ### Ajouts prévus
 

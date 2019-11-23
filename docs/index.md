@@ -15,11 +15,12 @@ Here you will know everything to create a super-duper **Content Pack** for **Min
 ### Features
 
 - [x] Blocks
+- [x] Items
 - [x] Creative tabs
 
 ### W.I.P.
 
-- [ ] Items
+- [ ] Complex Items (Sword, Axe, Pickaxes, Armors, etc)
 
 ### Planned Features
 

@@ -2,7 +2,7 @@ site_name: MJSon
 site_description: A Minecraft mod to Create Content Packs
 site_author: ZeAmateis
 site_url: https://mjson.readthedocs.io
-repo_name: 'jibaymcs/mjson'
+repo_name: 'jibaymcs/mjson-mod'
 repo_url: 'https://github.com/JibayMcs/MJson-Mod'
 copyright: 'ZeAmateis - 2019'
 google_analytics:
@@ -29,7 +29,13 @@ nav:
                 - 'properties': en/syntaxes/blocks/properties.md
                 - 'itemGroup': en/syntaxes/blocks/itemGroup.md
                 - 'voxelShape': en/syntaxes/blocks/voxelShape.md
-          - 'items.json': en/syntaxes/items.md
+          - 'items.json':
+              - 'Prerequisites': en/syntaxes/items/#the-itemsjson-syntax
+              - 'Create a Simple Item': en/syntaxes/items/#create-a-simple-item
+              - 'Create a Complex Item': en/syntaxes/items/#create-a-complex-item
+              - 'Configurables Objects':
+                - 'properties': en/syntaxes/items/properties.md
+                - 'itemGroup': en/syntaxes/items/itemGroup.md
           - 'itemgroup.json':
               - 'Create your Creative Tab': en/syntaxes/itemgroup.md
       - 'Example - Step by Step' : en/step-by-step.md

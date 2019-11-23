@@ -43,7 +43,7 @@ ___
 
 ### Create a Complex Block
 
-You can customize you block with some <sub>**(optional)**</sub> json objects.
+You can customize your block with some <sub>**(optional)**</sub> json objects.
 
 - `"properties"` [How To](blocks/properties.md)
 - `"itemGroup"` [How To](blocks/itemGroup.md)
