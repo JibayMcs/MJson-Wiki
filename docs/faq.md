@@ -1,9 +1,9 @@
-# MJSon, mod for Contents Packs
+# Nuwa, mod for Contents Packs
 
 ??? info "F.A.Q. in English"  
-    > Q: What is MJson Mod for ?
+    > Q: What is Nuwa Mod for ?
     
-    MJson is a mod that allow mapmakers, servers creators, or singles players,  
+    Nuwa is a mod that allow mapmakers, servers creators, or singles players,  
     to create custom ___Contents Packs___ (work like Resources Packs) to add **blocks**, **items**, or **entities** in Minecraft without touching a line of code !  
     Only with ___Jsons___ !
     
@@ -18,15 +18,15 @@
     
     > Q: I've created a Content Pack and given to my friends, but nothing happens... Halp.
     
-    Ensure to install the MJson Mod with Forge first !  
+    Ensure to install the Nuwa Mod with Forge first !  
     With this mod, the magic happens !
     
     ------------
 
 ??? info "F.A.Q. en Français"  
-    > Q: Quoi pour MJson c'est fait ?
+    > Q: Quoi pour Nuwa c'est fait ?
     
-    MJson est un mod qui permet aux mapmakers, créateurs de serveurs ou simples joueurs
+    Nuwa est un mod qui permet aux mapmakers, créateurs de serveurs ou simples joueurs
     de créer des ___Contents Packs___ (qui fonctionnent comme des Resources Packs) pour ajouter **blocs**, **items**, ou **entités** dans Minecraft sans toucher une seule ligne de code !  
     Seulement avec des ___Jsons___ !
     
@@ -41,7 +41,7 @@
     
     > Q: J'ai créé un Content Pack et je l'ai donné à mes potes, mais rien ne ce passe... Aled.
     
-    Assurez-vous d'avoir installer le mod MJson avec Forge avant !
+    Assurez-vous d'avoir installer le mod Nuwa avec Forge avant !
     Grâce à ce mod, la magie peut opérée !
     
     ------------

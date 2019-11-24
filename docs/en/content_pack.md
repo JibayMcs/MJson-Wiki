@@ -34,7 +34,7 @@ ___
 #### content.pack
 
 !!! warning "content.pack" 
-    The most important file to let **MJson** recognize the content pack  
+    The most important file to let **Nuwa** recognize the content pack  
 	That's a **json** structured file.
 	
 ```json
@@ -61,7 +61,7 @@ ___
 !!! warning "pack.mcmeta" 
 	An other important file !	
 	This file is mandatory in resources packs, so it's mandatory for content packs.  
-	**MJson** can recognize what **assets** to be loaded  
+	**Nuwa** can recognize what **assets** to be loaded  
 	The **json** structure is the same as Resources Packs
 	
 	!!! tip "[Check structure on Minecraft Wiki](https://minecraft.gamepedia.com/Resource_pack#Contents)"

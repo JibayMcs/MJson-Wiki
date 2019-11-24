@@ -1,4 +1,4 @@
-# Welcome to MJSon Documentation
+# Welcome to Nuwa Documentation
 
 Here you will know everything to create a super-duper **Content Pack** for **Minecraft** !
 

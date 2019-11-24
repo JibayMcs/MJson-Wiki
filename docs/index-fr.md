@@ -1,4 +1,4 @@
-# Bienvenue sur la Documentation de MJSon
+# Bienvenue sur la Documentation de Nuwa
 
 Ici, vous allez tout apprendre pour créer un super-méga-cool **Content Pack** pour **Minecraft** !
 

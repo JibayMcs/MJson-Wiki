@@ -2,7 +2,7 @@
 
 As you probably know you can license your (Hard) work, to protect it.
 
-MJSON actually support the **Creative Commons** licenses
+Nuwa actually support the **Creative Commons** licenses
 
 I'm not a professional on this subject.  
 So, you can visit the [Creative Commons](https://creativecommons.org/licenses/?lang=en_US) official website and pick the license you want.
@@ -34,7 +34,7 @@ ___
 
 The `license` property is a **String** value
 
-??? example "List of supported Creative Commons license format by MJson"  
+??? example "List of supported Creative Commons license format by Nuwa"  
     - `by`  
     - `by-nc-nd`  
     - `by-nc-sa`  

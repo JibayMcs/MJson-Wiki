@@ -1,9 +1,9 @@
-site_name: MJSon
+site_name: Nuwa
 site_description: A Minecraft mod to Create Content Packs
 site_author: ZeAmateis
-site_url: https://mjson.readthedocs.io
-repo_name: 'jibaymcs/mjson-mod'
-repo_url: 'https://github.com/JibayMcs/MJson-Mod'
+site_url: https://nuwa.readthedocs.io
+repo_name: 'jibaymcs/nuwa-mod'
+repo_url: 'https://github.com/JibayMcs/Nuwa-Mod'
 copyright: 'ZeAmateis - 2019'
 google_analytics:
   - 'UA-87583708-2'
@@ -40,7 +40,7 @@ nav:
               - 'Create your Creative Tab': en/syntaxes/itemgroup.md
       - 'Example - Step by Step' : en/step-by-step.md
     - Developper ?:
-      - Work with MJson API: en/modder/mjson_api.md
+      - Work with Nuwa API: en/modder/nuwa_api.md
     - Work with licenses : en/license/license.md
   - Docs Française: https://www.youtube.com/watch?v=dQw4w9WgXcQ
   #  - 'Comprendre les Contents Packs':
@@ -62,7 +62,7 @@ nav:
       #           - 'Créer votre Onglet Créatif': fr/syntaxes/itemgroup.md
       #    - 'Exemple - Pas à pas' : fr/step-by-step.md
       #   - Developpeur ?:
-      #   - Travailler avec l'API MJson: fr/modder/mjson_api.md
+      #   - Travailler avec l'API MJson: fr/modder/nuwa_api.md
   #   - Travailler avec les licences : fr/license/license.md
 
 # Documentation and theme
