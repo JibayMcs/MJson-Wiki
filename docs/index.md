@@ -4,6 +4,11 @@
 
 <center>
 # Welcome to Nuwa Documentation
+[![GitHub release](https://img.shields.io/github/v/release/JibayMcs/Nuwa-Mod.svg)](https://github.com/JibayMcs/Nuwa-Mod/releases/)
+[![GitHub contributors](https://img.shields.io/github/contributors/JibayMcs/Nuwa-Mod.svg)](https://GitHub.com/JibayMcs/Nuwa-Mod/graphs/contributors/)<br>
+[![Github all releases](https://img.shields.io/github/downloads/JibayMcs/Nuwa-Mod/total.svg)](https://github.com/JibayMcs/Nuwa-Mod/releases/)
+
+
 </center>
 
 Here you will know everything to create a super-duper **Content Pack** for **Minecraft** !
