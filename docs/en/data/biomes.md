@@ -1,3 +1,7 @@
+!!! info  
+    👷 🚧 This Page is currently under construction ! 🏗️ 👷‍♀️
+    
+
 # A `biome.json` structure
 
 !!! info "Prerequisites"
@@ -19,8 +23,9 @@ ___
     <br>
     Create biome at your own risk !
 
-    !!! tip "Take a look at [Biomes examples](#biomes-examples) :) "
-__
+    !!! tip "Take a look at [Biomes examples](#biomes-examples)"
+
+___
 
 # Biomes examples
 
