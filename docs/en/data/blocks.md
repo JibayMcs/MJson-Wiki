@@ -1,11 +1,11 @@
-# The `blocks.json` structure
+# A `block.json` structure
 
 !!! info "Prerequisites"
     To understand whats following, ensure to have read the [Content Pack Files Structure](../content_pack.md) page.
 
-`objects/blocks.json` was designed to register all the new blocks you want for Minecraft  
+The folder `objects/blocks/` was designed to register all the new blocks you want for Minecraft  
 
-That's a **JsonArray** file, it always start with `[]`
+All fresh new json are **JsonObject** file, there always starts with `{}`
 
 ___
 

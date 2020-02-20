@@ -1,4 +1,10 @@
+<p align="center">
+<img src="../assets/images/logo.png">
+</p>
+
+<center>
 # Bienvenue sur la Documentation de Nuwa
+</center>
 
 Ici, vous allez tout apprendre pour créer un super-méga-cool **Content Pack** pour **Minecraft** !
 
@@ -13,19 +19,33 @@ Ici, vous allez tout apprendre pour créer un super-méga-cool **Content Pack** 
 
 ### Ajouts
 
+- [x] Biomes
 - [x] Blocs
+- [x] Évents sur les blocs
 - [x] Items
-- [x] Onglets Créatifs
+- [x] Onglets Créatif
+- [x] Effets
+- [x] Générations de minerais
+- [x] Tableaux
+- [x] Potions
+- [x] Sons
+- [x] Matériaux d'Armures
+- [x] Matériaux d'Outils
 
 ### W.I.P.
-__
-- [ ] Items Complexes (Épée, Hache, Pioches, Armures, etc)
+
+- [ ] Items complexes (Arc, Boucliers, Flèches, Projectiles)
 
 ### Ajouts prévus
 
-- [ ] Voxel Shape Pré-rendu en jeu.
 - [ ] Entités
-- [ ] Sons
-- [ ] Sources de dégâts
+- [ ] Source de Dégats
 - [ ] Commandes
-- [ ] Modèles CraftStudio
+- [ ] Évents d'items
+- [ ] Event Conditions
+- [ ] Containaires (Fours, Coffres, etc)
+- [ ] Capabilities (Mécaniques complexes pour le joueur)
+- [ ] G.U.I
+- [ ] Fluides
+- [ ] Particules
+- [ ] États de blocs

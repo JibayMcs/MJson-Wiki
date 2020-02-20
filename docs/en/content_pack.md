@@ -3,7 +3,7 @@
 ### Content Pack Files Structure
 First at all, you need to understand the content pack files hierarchy.  
 
-#### Zip File Structure
+#### Folder/Zip File Structure
 ```
 📁 Content Pack Root
 ├─	📝 content.pack
@@ -13,12 +13,24 @@ First at all, you need to understand the content pack files hierarchy.
 ├── 📁 assets
 │   
 └── 📁 objects
-	├─	📝 blocks.json
-    ├─	📝 items.json
-	└─	📝 itemgroup.json
+    ├─  📁 biomes
+	├─	📁 blocks
+	├─	📁 effects
+	├─	📁 events
+    │   └── 📁 blocks
+	├─	📁 generations
+    │   └── 📁 ores
+	├─	📁 itemgroup
+    ├─	📁 items
+	├─	📁 materials
+    │   ├─  📁 armor
+    │   └── 📁 tools
+	├─	📁 paintings
+	├─	📁 potions
+	└─	📁 sounds
 ```
 
-#### Content Pack zip file directory
+#### Content Pack folder/zip file directory
 -   Windows:  `%Appdata%\Roaming\.minecraft\contentpacks`
 -   Linux:  `~/.minecraft/contentpacks`
 -   Mac OS X:  `~/Library/Application Support/minecraft/contentpacks`
@@ -27,7 +39,7 @@ First at all, you need to understand the content pack files hierarchy.
 
 !!! summary "Content Pack Root"
 	A simple folder with all necessary resources below.  
-	To be compiled as a **zip file**
+	To be compiled as a **zip file** or **directly a folder**
 	
 ___
 
@@ -42,6 +54,7 @@ ___
   "packName": "Ma Super Packy Pack", //mandatory
   "namespace": "super_pack", //mandatory
   "version": "0.0.1", //mandatory
+  "nuwaDataVersion" : 2, //mandatory
   "authors" : ["ZeAmateis"], //optional
   "credits" : ["Thanks to my parents to bring me life."], //optional
   "description": [ //optional
@@ -81,97 +94,17 @@ ___
 	Like a basic resource pack !
 ___
 
+#### data
+
+!!! summary "data"
+	The main **folder** to include all data of your content pack  
+	loot_tables, tags, etc 
+	Like a basic resource pack !
+___
+
 #### objects
 
 !!! summary "objects"
 	The main **folder** to include all new objects json datas.  
 	Theses datas is needed to implements new objects in the game
-___
-
-#### blocks.json
-
-!!! note "blocks.json"
-	**Json file** to register all new blocks to be implemented in the game  
-	<u>If `Array` in file is empty or file does not exist, the file is ignored</u>
-
-<details>
-  <summary>Exemple json structure</summary>
-  
-```json
-[
-  {
-    "registryName": "test",
-    "itemGroup": "super_pack:blocks",
-    "properties": {
-      "material": "WOOL",
-      "hardness": 1,
-      "resistance": 1,
-      "lightValue": 0,
-      "soundType": "SAND",
-      "harvestLevel": 1,
-      "harvestTool": "axe",
-      "slipperiness": 1,
-      "hasVariableOpacity": false,
-      "noDrops": false,
-      "doesNotBlockMovement": false
-    },
-    "voxelShape": {
-      "shape": {
-        "x1": 1,
-        "y1": 0,
-        "z1": 1,
-        "x2": 15,
-        "y2": 16,
-        "z2": 15
-      },
-      "collisionShape": {
-        "x1": 1,
-        "y1": 0,
-        "z1": 1,
-        "x2": 15,
-        "y2": 15,
-        "z2": 15
-      }
-    }
-  },
-  {
-    "registryName": "test_2",
-    "itemGroup": "super_pack:blocks"
-  }
-]
-```
-
-</details>
-
-___
-
-#### items.json
-
-!!! note "items.json"
-	**Json file** to register all new items to be implemented in the game  
-	<u>If `Array` in file is empty or file does not exist, the file is ignored</u>
-
-> W.I.P
-___
-
-#### itemgroup.json
-
-!!! note "itemgroup.json"
-	**Json file** to create a new creative tab to add your fresh new objects inside !
-
-<details>
-	<summary>Exemple json structure</summary>
-
-```json
-{
-  "id": "super_pack:blocks",
-  "icon": "super_pack:test",
-  "noTitle": false,
-  "hasSearchBar": true,
-  "hasScrollBar": false
-}
-```
-
-</details>
-
 ___

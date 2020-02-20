@@ -20,27 +20,36 @@ nav:
       - 'Content Pack zip file directory': en/content_pack/#content-pack-zip-file-directory
       - 'Explanations': en/content_pack/#explanations
     - 'Content Pack Creator ?':
-      - 'Syntaxes':
-          - 'blocks.json':
-              - 'Prerequisites': en/syntaxes/blocks/#the-blocksjson-syntax
-              - 'Create a Simple Block': en/syntaxes/blocks/#create-a-simple-block
-              - 'Create a Complex Block': en/syntaxes/blocks/#create-a-complex-block
+      - 'Data':
+          - 'biomes':
+              - 'Prerequisites' : en/data/biomes/#a-biomejson-structure
+          - 'blocks':
+              - 'Prerequisites': en/data/blocks/#a-blockjson-structure
+              - 'Create a Simple Block': en/data/blocks/#create-a-simple-block
+              - 'Create a Complex Block': en/data/blocks/#create-a-complex-block
               - 'Configurables Objects':
-                - 'properties': en/syntaxes/blocks/properties.md
-                - 'itemGroup': en/syntaxes/blocks/itemGroup.md
-                - 'voxelShape': en/syntaxes/blocks/voxelShape.md
-          - 'items.json':
-              - 'Prerequisites': en/syntaxes/items/#the-itemsjson-syntax
-              - 'Create a Simple Item': en/syntaxes/items/#create-a-simple-item
-              - 'Create a Complex Item': en/syntaxes/items/#create-a-complex-item
+                - 'properties': en/data/blocks/properties.md
+                - 'itemGroup': en/data/blocks/itemGroup.md
+                - 'voxelShape': en/data/blocks/voxelShape.md
+          - 'effects': en/data/
+          - 'events': en/data/
+          - 'generations': en/data/
+          - 'itemgroup':
+              - 'Create your Creative Tab': en/data/itemgroup.md
+          - 'items':
+              - 'Prerequisites': en/data/items/#the-itemsjson-syntax
+              - 'Create a Simple Item': en/data/items/#create-a-simple-item
+              - 'Create a Complex Item': en/data/items/#create-a-complex-item
               - 'Configurables Objects':
-                - 'properties': en/syntaxes/items/properties.md
-                - 'itemGroup': en/syntaxes/items/itemGroup.md
-          - 'itemgroup.json':
-              - 'Create your Creative Tab': en/syntaxes/itemgroup.md
+                  - 'properties': en/data/items/properties.md
+                  - 'itemGroup': en/data/items/itemGroup.md
+          - 'materials': en/data/
+          - 'paintings': en/data/
+          - 'potions': en/data/
+          - 'sounds': en/data/
       - 'Example - Step by Step' : en/step-by-step.md
-    - Developper ?:
-      - Work with Nuwa API: en/modder/nuwa_api.md
+    #- Developper ?:
+    #  - Work with Nuwa API: en/modder/nuwa_api.md
     - Work with licenses : en/license/license.md
   - Docs Française: https://www.youtube.com/watch?v=dQw4w9WgXcQ
   #  - 'Comprendre les Contents Packs':
@@ -84,6 +93,10 @@ theme:
   static_templates:
     - 404.html
 
+plugins:
+  - git-revision-date-localized:
+      type: timeago
+
 markdown_extensions:
   - codehilite
   - admonition
@@ -101,5 +114,5 @@ extra:
   social:
     - type: github
       link: https://github.com/JibayMcs
-    - type: 'twitter'
+    - type: twitter
       link: 'https://twitter.com/ZeAmateis'

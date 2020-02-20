@@ -3,11 +3,7 @@
 !!! info "Prerequisites"
     To understand whats following, ensure to have read the [Content Pack Files Structure](../content_pack.md) page.
 
-That's a **JsonObject** file, it always start with `{}`
-
-!!! note
-    For no abuses, only **one** creative tab is allowed by Content Pack.
-
+All fresh new json are **JsonObject** file, there always starts with `{}`
 ___
 
 ### Create your Creative Tab
@@ -16,8 +12,8 @@ ___
     
     ```json
     {
-      "id": "super_pack:my_tab", //mandatory
-      "icon": "minecraft:dirt", //mandatory
+      "registryName": "my_tab", //mandatory
+      "itemIcon": "minecraft:dirt", //mandatory
       "noTitle": false, //optional
       "hasSearchBar": true, //optional
       "hasScrollBar": false, //optional
@@ -27,9 +23,11 @@ ___
     
 ## Values
 
-??? abstract "`id`"
-    Refer to the `namespace` value inside [`content.pack`](../../content_pack/#contentpack)
-??? abstract "`icon`"
+??? abstract "`registryName`"
+    Refer to an **unique registry name** for your item group<br>
+    For uses in **Blocks** or **Items**, call it with your declared `namespace` in [content.pack](../content_pack.md#contentpack)<br>
+    Example: `my_super_pack:my_tab`
+??? abstract "`itemIcon`"
     Use registry name of items or block to create an icon of your Creative Tab  
     `minecraft:dirt` or `super_pack:my_block` for example  
     
@@ -65,8 +63,8 @@ ___
 ### Vanilla Creative Tabs
 
 ??? example "List of Vanilla Creative Tabs"
-    `minecraft:building_blocks`  
-    `minecraft:decorations`  
+    `minecraft:blocks`  
+    `minecraft:decoration`  
     `minecraft:redstone`  
     `minecraft:transportation`  
     `minecraft:food`  
